@@ -1,0 +1,28 @@
+# Configuration for the tiny synthetic sample (smoke test of the whole pipeline).
+# Numbers from this config are NOT the reported results.
+#Look at baseline.yaml to see what each value represents.
+seed: 42 # Don't change this using a different seed can give a different seed can give a different result so please don't change from 42.
+
+data:
+  data_dir: sample_data
+  subsets: {train: train, valid: valid, test: test}
+  effect_filter: "overdrive"
+  dry_tag: "dry"
+  wet_tag: "wet"
+  sample_rate: 48000
+  trim_start_samples: 480
+  trim_end_samples: 0
+  slice_seconds: 0.5
+  processed_dir: data/processed_sample
+
+baseline:
+  num_past_samples_grid: [16, 32]
+  alpha_grid: [0.001, 0.01, 0.1]
+
+results_dir: results/sample
+
+expected_results:
+  source: null
+  naive_dry:          {mse: null, esr: null}
+  naive_gain_matched: {mse: null, esr: null}
+  ridge:              {mse: null, esr: null}

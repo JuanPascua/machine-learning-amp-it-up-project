@@ -1,0 +1,11 @@
+# Dataset and generated artifacts (never commit the full dataset)
+data/
+results/
+.env
+*.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

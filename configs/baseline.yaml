@@ -1,0 +1,32 @@
+# Configuration file for the baseline with the full data set
+# Every hyperparameter lives here; nothing is hard-coded in the code.
+
+seed: 42 # Don't change this using a different seed can give a different seed can give a different result so please don't change from 42.
+
+data:
+  #Set the DATA_DIR environment variable instead of editing this line. In the path that environment variable is set to it must contain the train / valid / test folders of ToneTwist AFx.
+  data_dir: 
+  subsets: # folder names inside DATA_DIR
+    train: train
+    valid: valid
+    test: test
+  effect_filter: "overdrive"  # only files whose path contains  overdrive the effect we want to predict is included
+  dry_tag: "dry" # dry (input) file tag
+  wet_tag: "wet" # wet (target) file tag 
+  sample_rate: 48000
+  trim_start_samples: 480 #Remove the first 10ms of the audio tracks data so the the two impulses which from what we can tell are two sync the files is removed essentially noise
+  trim_end_samples: 0 #We are not removing any audio from the end of the audio tracks right now but want to explore possibly doing it to see if the audio being ended wierdly affects the results.
+  slice_seconds: 2.0           
+  processed_dir: data/processed
+
+baseline:
+  num_past_samples_grid: [32] #Number of past dry samples to look back; use one value for a fixed N
+  alpha_grid: [0.0001, 0.001, 0.01, 0.1, 1.0]  #Finding the best ridge regression penalty lamda using grid search on the validation subset,is called alpha due to lambda being reserved in python.
+
+results_dir: results
+
+expected_results:
+  source: null             
+  naive_dry:          {mse: null, esr: null}
+  naive_gain_matched: {mse: null, esr: null}
+  ridge:              {mse: null, esr: null}
