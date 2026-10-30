@@ -5,7 +5,7 @@ seed: 42 # Don't change this using a different seed can give a different seed ca
 
 data:
   #Set the DATA_DIR environment variable instead of editing this line. In the path that environment variable is set to it must contain the train / valid / test folders of ToneTwist AFx.
-  data_dir: 
+  data_dir: data
   subsets: # folder names inside DATA_DIR
     train: train
     valid: valid
@@ -13,7 +13,7 @@ data:
   effect_filter: "overdrive"  # only files whose path contains  overdrive the effect we want to predict is included
   dry_tag: "dry" # dry (input) file tag
   wet_tag: "wet" # wet (target) file tag 
-  sample_rate: 48000
+  sample_rate: 44100 #Changed from the last update due to specific datset using that sample rate for the audio
   trim_start_samples: 480 #Remove the first 10ms of the audio tracks data so the the two impulses which from what we can tell are two sync the files is removed essentially noise
   trim_end_samples: 0 #We are not removing any audio from the end of the audio tracks right now but want to explore possibly doing it to see if the audio being ended wierdly affects the results.
   slice_seconds: 2.0           

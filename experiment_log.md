@@ -4,3 +4,9 @@
 | 2026-10-27 22:30 | no-git | configs/sample.yaml | 42 | naive_dry | 0.0241269 | 0.287695 | 0.0245407 | 0.278451 |  |
 | 2026-10-27 22:30 | no-git | configs/sample.yaml | 42 | naive_gain_matched | 0.00459206 | 0.0547569 | 0.00536109 | 0.0608294 |  |
 | 2026-10-27 22:30 | no-git | configs/sample.yaml | 42 | ridge(N=32,alpha=0.001) | 0.00498218 | 0.0594089 | 0.00535701 | 0.0607832 |  |
+| 2026-10-30 22:50 | a59d38a | configs/baseline.yaml | 42 | naive_dry | 0.0211982 | 0.67342 | 0.0166046 | 0.675258 |  |
+| 2026-10-30 22:50 | a59d38a | configs/baseline.yaml | 42 | naive_gain_matched | 0.0220246 | 0.699675 | 0.0162871 | 0.662346 |  |
+| 2026-10-30 22:50 | a59d38a | configs/baseline.yaml | 42 | ridge(N=32,alpha=0.0001) | 0.00886281 | 0.281552 | 0.0077583 | 0.315507 |  |
+| 2026-10-30 22:54 | a59d38a | configs/baseline.yaml | 42 | naive_dry | 0.0211982 | 0.67342 | 0.0166046 | 0.675258 |  |
+| 2026-10-30 22:54 | a59d38a | configs/baseline.yaml | 42 | naive_gain_matched | 0.0220246 | 0.699675 | 0.0162871 | 0.662346 |  |
+| 2026-10-30 22:54 | a59d38a | configs/baseline.yaml | 42 | ridge(N=32,alpha=0.0001) | 0.00886281 | 0.281552 | 0.0077583 | 0.315507 |  |

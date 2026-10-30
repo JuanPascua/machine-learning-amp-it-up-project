@@ -1,5 +1,5 @@
 # Dataset and generated artifacts (never commit the full dataset)
-data/
+data/processed*
 results/
 .env
 *.env
