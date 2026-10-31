@@ -30,7 +30,7 @@ rather then you global or other python interpretors.
 If you encounter other possible problems please install and use python 3.12 as we used it for the training and preperation of the model and have encountered no problems.
 
 ## How to get the full Dataset (Ignore this we have decided to use one dataset for now and update the repo to make your grading easier for milestone 3)
-The full dataset is large so only a tiny sample is included in the repo and some local setup is required.
+The full dataset is large so only a tiny sample is included in the repo and some local setup is required. It will be ammended or removed in a later milestone depending on the direction the project takes.
 1. Download ToneTwist AFx data from its github repo at  https://github.com/mcomunita/tonetwist-afx-dataset/tree/master follow their instructions to download it.
 2. Put the provided `train/`, `val/`, `test/` folders into a single folder and then create an environment varaiable that is used by the config file to get the data and prepare it:
    `export DATA_DIR=/path/to/tonetwist_afx` (Windows PowerShell: `$env:DATA_DIR="C:\path\to\tonetwist_afx"`).
@@ -53,7 +53,7 @@ python scripts/run_benchmarks.py --config configs/baseline.yaml
 python scripts/train_baseline.py --config configs/baseline.yaml
 python scripts/make_table.py     --config configs/baseline.yaml
 ```
-Output: `results/results_table.csv` and `results/results_table.md` (the baseline table for the memo),
+Output: `results/results_table.csv` and `results/results_table.md` (the baseline and benchmarks table for the memo),
 plus `results/baseline.json` (chosen N and alpha, full validation grid), `results/benchmarks.json`,
 `results/data_summary.json`, and `results/ridge_weights.npy`.
 
