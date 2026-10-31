@@ -43,8 +43,6 @@ github is getting this commit and well update. Please don't add an additional la
 ## Data Layout assumption. 
 `src/data_pipeline.py::find_pairs` expects each dry file and its wet file in the same folder, with names that differ only by the tag in `dry_tag` / `wet_tag` (default `dry` / `wet`), and the text `overdrive` somewhere in the path. If the real dataset is organised differently, edit `find_pairs` or the three keys in `configs/baseline.yaml`. This is the one part that must be checked against the real data.
 
-## Before the first real run: fill in the TODOs in `configs/baseline.yaml`
-`trim_start_samples`, `trim_end_samples` (sync impulses), `slice_seconds`, and the `num_past_samples_grid` / `alpha_grid`. Copy the final values into the memo.
 
 ## Reproduce the main result by executing the files in the following order doing it another issues can and will result in issues.
 ```
