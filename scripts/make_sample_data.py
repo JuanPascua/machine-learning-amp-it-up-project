@@ -10,7 +10,7 @@ import numpy as np
 import soundfile as sf
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from src.config import REPO_ROOT
+from src.baseline.config import REPO_ROOT
 
 SR = 48000
 SECONDS = 2.0

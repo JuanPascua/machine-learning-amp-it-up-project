@@ -7,11 +7,11 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from src.config import load_config, repo_path, set_seed
-from src.data_pipeline import load_processed
-from src.experiment_log import append_run
-from src.metrics import report
-from src.models import accumulate_normal_equations, linear_predict, solve_ridge
+from src.baseline.config import load_config, repo_path, set_seed
+from src.baseline.data_pipeline import load_processed
+from src.baseline.experiment_log import append_run
+from src.baseline.metrics import report
+from src.baseline.models import accumulate_normal_equations, linear_predict, solve_ridge
 
 # Trains the base line ridge regression model
 def main():

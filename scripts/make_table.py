@@ -7,7 +7,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from src.config import load_config, repo_path
+from src.baseline.config import load_config, repo_path
 
 
 def format_value(value):

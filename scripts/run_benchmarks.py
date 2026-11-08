@@ -4,11 +4,11 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from src.config import load_config, repo_path, set_seed
-from src.data_pipeline import load_processed
-from src.experiment_log import append_run
-from src.metrics import report
-from src.models import gain_from_train
+from src.baseline.config import load_config, repo_path, set_seed
+from src.baseline.data_pipeline import load_processed
+from src.baseline.experiment_log import append_run
+from src.baseline.metrics import report
+from src.baseline.models import gain_from_train
 
 #Runs the naive benchmarks
 def main():

@@ -6,8 +6,8 @@ from pathlib import Path
 #Prepares the dataset so that we can train our model on good clean data rather than messy unclean or unoptimized data forms.
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from src.config import load_config, set_seed
-from src.data_pipeline import prepare_subset, save_processed, write_data_summary
+from src.baseline.config import load_config, set_seed
+from src.baseline.data_pipeline import prepare_subset, save_processed, write_data_summary
 
 
 
