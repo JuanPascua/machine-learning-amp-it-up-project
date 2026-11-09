@@ -11,8 +11,8 @@ import torch.nn as nn
 You would have train and test
 """
 # Split into dry and wet
-DEVICE = "ElectroHarmonix-MetalMuff"
-SETTINGS = "V100_G000_D000_T050_M050_B050" # This the pedal
+DEVICE = "LandlordBrewers-DroopChorus"
+SETTINGS = "L050_D100_S050" # This the pedal
 
 ROOT = Path(__file__).resolve().parent.parent   # project root (one level above src/)
 DRY_DIR = ROOT / "data"  / "dry" 
@@ -67,7 +67,7 @@ for s in TRAIN_SOURCES:
     train.append((x[:cut - SEGMENTATION], y[:cut - SEGMENTATION]))
     val.append((x[cut:], y[cut:]))
 
-print(f"loaded {len(train)} training files, sample rate {sr}")
+    print(f"loaded {len(train)} training files, sample rate {sr}")
 
 class AmpLSTM(nn.Module):
     def __init__(self):
