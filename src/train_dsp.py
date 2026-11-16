@@ -11,8 +11,8 @@ import torch.nn as nn
 You would have train and test
 """
 # Split into dry and wet
-DEVICE = "LandlordBrewers-DroopChorus"
-SETTINGS = "L050_D100_S050" # This the pedal
+DEVICE = "ElectroHarmonix-MetalMuff"
+SETTINGS = "V100_G000_D000_T050_M050_B050" # This the pedal
 
 ROOT = Path(__file__).resolve().parent.parent   # project root (one level above src/)
 DRY_DIR = ROOT / "data"  / "dry" 
