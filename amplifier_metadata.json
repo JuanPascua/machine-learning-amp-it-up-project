@@ -1,327 +1,945 @@
 {
     "LandlordBrewers-DroopChorus": {
-        "pedals": [
-            "L080_D100_S100",
-            "L050_D100_S050"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "L080_D100_S100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "L050_D100_S050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "Ampeg-OptoComp": {
-        "pedals": [
-            "C050_R100_L060",
-            "C050_R050_L060",
-            "C050_R000_L060",
-            "C030_R050_L060",
-            "C100_R100_L060"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "C050_R100_L060": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "C050_R050_L060": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "C050_R000_L060": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "C030_R050_L060": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "C100_R100_L060": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "Flamma-AnalogComp": {
-        "pedals": [
-            "V100_C050_E000",
-            "V100_C050_E050",
-            "V100_C050_E100",
-            "V100_C100_E050",
-            "V100_C000_E050"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "V100_C050_E000": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_C050_E050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_C050_E100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_C100_E050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_C000_E050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "Yuer-DynaCompressor": {
-        "pedals": [
-            "A000_S050_L100",
-            "A000_S100_L100",
-            "A050_S050_L100",
-            "A050_S100_L100",
-            "A100_S100_L100",
-            "A000_S000_L100"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "A000_S050_L100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "A000_S100_L100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "A050_S050_L100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "A050_S100_L100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "A100_S100_L100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "A000_S000_L100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "ElectroHarmonix-MetalMuff": {
-        "pedals": [
-            "V100_G000_D050_T050_M050_B050",
-            "V100_G000_D100_T050_M050_B050",
-            "V100_G000_D000_T050_M050_B050"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "V100_G000_D050_T050_M050_B050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_G000_D100_T050_M050_B050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_G000_D000_T050_M050_B050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "HarleyBenton-BigFur": {
-        "pedals": [
-            "V100_T000_S050",
-            "V100_T050_S050",
-            "V100_T050_S100",
-            "V100_T100_S050",
-            "V100_T050_S000"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "V100_T000_S050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_S050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_S100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T100_S050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_S000": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "HarleyBenton-DropKick": {
-        "pedals": [
-            "V100_T050_G000_MNormal",
-            "V100_T050_G050_MNormal",
-            "V100_T050_G050_MSoft",
-            "V100_T050_G050_MTense",
-            "V100_T050_G100_MNormal",
-            "V100_T100_G050_MNormal",
-            "V100_T000_G050_MNormal"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "V100_T050_G000_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_G050_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_G050_MSoft": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_G050_MTense": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_G100_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T100_G050_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T000_G050_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "HarleyBenton-Plexicon": {
-        "pedals": [
-            "V100_T050_G000_MNormal",
-            "V100_T000_G050_MNormal",
-            "V100_T050_G050_MBright",
-            "V100_T050_G050_MNormal",
-            "V100_T050_G100_MNormal",
-            "V100_T100_G050_MNormal",
-            "V100_T100_G100_MBright"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "V100_T050_G000_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T000_G050_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_G050_MBright": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_G050_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_G100_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T100_G050_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T100_G100_MBright": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "HarleyBenton-Rodent": {
-        "pedals": [
-            "V100_F050_D030_MNormal",
-            "V100_F050_D050_MNormal",
-            "V100_F050_D050_MSolo",
-            "V100_F050_D050_MTurbo",
-            "V100_F050_D100_MNormal",
-            "V100_F100_D050_MNormal",
-            "V100_F000_D050_MNormal"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "V100_F050_D030_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_F050_D050_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_F050_D050_MSolo": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_F050_D050_MTurbo": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_F050_D100_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_F100_D050_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_F000_D050_MNormal": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "HarleyBenton-FuzzyLogic": {
-        "pedals": [
-            "V100_F050",
-            "V100_F100",
-            "V100_F000"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "V100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_F100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_F000": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "HarleyBenton-SillyFuzz": {
-        "pedals": [
-            "V100_F050",
-            "V100_F100",
-            "V100_F000"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "V100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_F100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_F000": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "Fulltone-FullDrive2": {
-        "pedals": [
-            "V100_T050_O000_B000",
-            "V100_T050_O100_B000",
-            "V100_T100_O100_B100",
-            "V100_T050_O050_B000"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "V100_T050_O000_B000": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_O100_B000": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T100_O100_B100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_O050_B000": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "HarleyBenton-GreenTint": {
-        "pedals": [
-            "V100_T050_G000",
-            "V100_T050_G050",
-            "V100_T050_G100",
-            "V100_T100_G100",
-            "V100_T000_G100"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "V100_T050_G000": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_G050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T050_G100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T100_G100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "V100_T000_G100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "Amplitube-DComp": {
-        "pedals": [
-            "O040_S100"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "O040_S100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "Amplitube-FenderComp": {
-        "pedals": [
-            "T100"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "Arturia-RevSpring636Preamp": {
-        "pedals": [
-            "M100_I050_B000_O060"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "M100_I050_B000_O060": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "Custom-DynamicFuzz": {
-        "pedals": [
-            "G050_S100_A000_R100_V100"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "G050_S100_A000_R100_V100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
-    "Marshall-JVM410H-ChOD1": {
-        "pedals": [],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
-    },
+    "Marshall-JVM410H-ChOD1": {},
     "MultidrivePedalPro-M-Distortion": {
-        "pedals": [
-            "G000_L050_B100_T100_M100_F050",
-            "G010_L050_B100_T100_M100_F050",
-            "G030_L050_B100_T100_M100_F050",
-            "G050_L050_B100_T100_M100_F050",
-            "G070_L050_B100_T100_M100_F050",
-            "G090_L050_B100_T100_M100_F050",
-            "G100_L050_B000_T100_M100_F050",
-            "G100_L050_B010_T100_M100_F050",
-            "G100_L050_B030_T100_M100_F050",
-            "G100_L050_B050_T100_M100_F050",
-            "G100_L050_B070_T100_M100_F050",
-            "G100_L050_B090_T100_M100_F050",
-            "G100_L050_B100_T000_M100_F050",
-            "G100_L050_B100_T010_M100_F050",
-            "G100_L050_B100_T030_M100_F050",
-            "G100_L050_B100_T050_M100_F050",
-            "G100_L050_B100_T070_M100_F050",
-            "G100_L050_B100_T090_M100_F050",
-            "G100_L050_B100_T100_M000_F050",
-            "G100_L050_B100_T100_M010_F050",
-            "G100_L050_B100_T100_M030_F050",
-            "G100_L050_B100_T100_M050_F050",
-            "G100_L050_B100_T100_M070_F050",
-            "G100_L050_B100_T100_M090_F050",
-            "G100_L050_B100_T100_M100_F000",
-            "G100_L050_B100_T100_M100_F010",
-            "G100_L050_B100_T100_M100_F030",
-            "G100_L050_B100_T100_M100_F050",
-            "G100_L050_B100_T100_M100_F070",
-            "G100_L050_B100_T100_M100_F090",
-            "G100_L050_B100_T100_M100_F100"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "G000_L050_B100_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G010_L050_B100_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G030_L050_B100_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G050_L050_B100_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G070_L050_B100_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G090_L050_B100_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B000_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B010_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B030_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B050_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B070_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B090_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T000_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T010_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T030_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T050_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T070_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T090_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M000_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M010_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M030_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M050_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M070_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M090_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M100_F000": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M100_F010": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M100_F030": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M100_F050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M100_F070": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M100_F090": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L050_B100_T100_M100_F100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "MultidrivePedalPro-F-Fuzz": {
-        "pedals": [
-            "F000_V100",
-            "F010_V100",
-            "F020_V100",
-            "F030_V100",
-            "F040_V100",
-            "F050_V100",
-            "F060_V100",
-            "F070_V100",
-            "F080_V100",
-            "F090_V100",
-            "F100_V100"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "F000_V100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "F010_V100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "F020_V100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "F030_V100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "F040_V100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "F050_V100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "F060_V100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "F070_V100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "F080_V100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "F090_V100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "F100_V100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "MultidrivePedalPro-808-Scream": {
-        "pedals": [
-            "O000_L080_T100",
-            "O010_L080_T100",
-            "O020_L080_T100",
-            "O030_L080_T100",
-            "O040_L080_T100",
-            "O050_L080_T100",
-            "O060_L080_T100",
-            "O070_L080_T100",
-            "O080_L080_T100",
-            "O090_L080_T100",
-            "O100_L080_T000",
-            "O100_L080_T010",
-            "O100_L080_T020",
-            "O100_L080_T030",
-            "O100_L080_T040",
-            "O100_L080_T050",
-            "O100_L080_T060",
-            "O100_L080_T070",
-            "O100_L080_T080",
-            "O100_L080_T090",
-            "O100_L080_T100"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "O000_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O010_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O020_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O030_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O040_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O050_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O060_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O070_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O080_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O090_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O100_L080_T000": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O100_L080_T010": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O100_L080_T020": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O100_L080_T030": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O100_L080_T040": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O100_L080_T050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O100_L080_T060": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O100_L080_T070": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O100_L080_T080": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O100_L080_T090": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "O100_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     },
     "MultidrivePedalPro-B-Drive": {
-        "pedals": [
-            "G000_L080_T100",
-            "G010_L080_T100",
-            "G020_L080_T100",
-            "G030_L080_T100",
-            "G040_L080_T100",
-            "G050_L080_T100",
-            "G060_L080_T100",
-            "G070_L080_T100",
-            "G080_L080_T100",
-            "G090_L080_T100",
-            "G100_L080_T000",
-            "G100_L080_T010",
-            "G100_L080_T020",
-            "G100_L080_T030",
-            "G100_L080_T040",
-            "G100_L080_T050",
-            "G100_L080_T060",
-            "G100_L080_T070",
-            "G100_L080_T080",
-            "G100_L080_T090",
-            "G100_L080_T100"
-        ],
-        "alpha": 0,
-        "steps": 0,
-        "batch": 0,
-        "hidden_layers": 0
+        "G000_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G010_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G020_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G030_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G040_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G050_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G060_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G070_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G080_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G090_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L080_T000": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L080_T010": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L080_T020": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L080_T030": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L080_T040": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L080_T050": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L080_T060": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L080_T070": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L080_T080": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L080_T090": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        },
+        "G100_L080_T100": {
+            "alpha": 0,
+            "steps": 0,
+            "batch": 0,
+            "hidden_size": 0
+        }
     }
 }
