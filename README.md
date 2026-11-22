@@ -29,6 +29,17 @@ You might get package not found errors being shown when looking at the python fi
 rather then you global or other python interpretors.
 If you encounter other possible problems please install and use python 3.12 as we used it for the training and preperation of the model and have encountered no problems.
 
+### How to use:
+After you set up your Virtual Environment and run it in terminal you can begin to use the amplifier. To start using it you will:
+
+1. cd src/UI
+2. py UI.py
+
+Then afterwards you can use the drop down menu to pick a selection of the effects and press start.
+If you want to remove the effect you can click 'BYPASS' to stop the effect if there are too many glitches (Choppy).
+
+You can adjust the GAIN or VOLUME to your choosing.
+ 
 ## How to get the full Dataset (Ignore this we have decided to use one dataset for now and update the repo to make your grading easier for milestone 3)
 The full dataset is large so only a tiny sample is included in the repo and some local setup is required. It will be ammended or removed in a later milestone depending on the direction the project takes.
 1. Download ToneTwist AFx data from its github repo at  https://github.com/mcomunita/tonetwist-afx-dataset/tree/master follow their instructions to download it.
