@@ -15,6 +15,7 @@ import torch.nn as nn
 import torch
 from pathlib import Path
 import numpy as np
+import threading 
 
 # Use if using command line args
 # app = QApplication(sys.argv)
@@ -48,6 +49,7 @@ class Engine:
     def __init__(self):
         self.model = None
         self.pending = None
+        self._lock = threading.Lock()
         self.state = None
         self.stream = None
 
@@ -65,32 +67,42 @@ class Engine:
             return
         state = torch.load(MODELS / name, map_location="cpu")
         hidden = state["lstm.weight_hh_l0"].shape[1]
+        model = AmpLSTM(hidden)
+        model.load_state_dict(state)
+        model.eval()
+        with self._lock:
+            self.pending = model
 
     def callback(self, indata, outdata, frames, t, status):
         if status:
             self.glitches += 1
 
-        if self.pending is not None:
-            self.model = self.pending
-            self.state = None
-            self.pending = None
+        with self._lock:
+            if self.pending is not None:
+                        self.model = self.pending
+                        self.state = None
+                        self.pending = None
 
-        x = indata[:, 0] * self.gain
+        x = indata[:, 0].astype(np.float32, copy=False) * np.float32(self.gain)
 
         if self.bypass or self.model is None:
             y = x
 
         else:
             with torch.no_grad():
-                out, self.state = self.model(torch.from_numpy(x)[None, :, None], self.state)
+                inp = torch.from_numpy(x)[None, :, None]
+                out, self.state = self.model(inp, self.state)
 
                 y = out[0, :, 0].numpy()
 
-            y = np.clip(y * self.volume, -1.0, 1.0)
-            outdata[:, :] = y[:, None]
 
-            self.in_peak = max(self.in_peak, float(np.abs(x).max()))
-            self.out_peak = max(self.out_peak, float(np.abs(y).max()))
+
+        y = np.clip(y * self.volume, -1.0, 1.0)
+        outdata[:] = y[:, None]
+
+        
+        self.in_peak = max(self.in_peak, float(np.abs(x).max()))
+        self.out_peak = max(self.out_peak, float(np.abs(y).max()))
         
     def start(self):
         import sounddevice as sd
@@ -99,7 +111,7 @@ class Engine:
             self.stream.start()
 
     def stop(self):
-        if self.stream is None:
+        if self.stream is not None:
             self.stream.stop()
             self.stream.close()
             self.stream = None
@@ -115,6 +127,8 @@ class AmpWindow(QWidget):
         self.setWindowTitle("Amp It Up!")
         self.eng = Engine()
         layout = QVBoxLayout(self)
+        self.resize(520, 460)
+        self.setMinimumSize(460, 420)
 
         self.combo = QComboBox()
         self.combo.addItems(sorted(p.name for p in MODELS.glob("*.pt")))
@@ -153,6 +167,7 @@ class AmpWindow(QWidget):
 
         row.addWidget(self.power)
         row.addWidget(self.bypass)
+        layout.addLayout(row)
         self.status = QLabel("Stopped. Headphones Reccomended")
         layout.addWidget(self.status)
 
