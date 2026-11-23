@@ -10,3 +10,6 @@
 | 2026-10-30 22:54 | a59d38a | configs/baseline.yaml | 42 | naive_dry | 0.0211982 | 0.67342 | 0.0166046 | 0.675258 |  |
 | 2026-10-30 22:54 | a59d38a | configs/baseline.yaml | 42 | naive_gain_matched | 0.0220246 | 0.699675 | 0.0162871 | 0.662346 |  |
 | 2026-10-30 22:54 | a59d38a | configs/baseline.yaml | 42 | ridge(N=32,alpha=0.0001) | 0.00886281 | 0.281552 | 0.0077583 | 0.315507 |  |
+| 2026-11-01 11:13 | a59d38a | src/UI/ui.py | 42 | Different Models were made and able to be used |
+| 2026-11-10 17:42 | a59d38a | src/train_dsp.py | 42 | Started training using google colab |
+| 2026-11-20 18:52 | a59d38a | src/train_dsp.py | 42 | Fine Tuned the models and changed hyper parameters |
